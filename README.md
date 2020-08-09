@@ -9,9 +9,6 @@ The idea behind this method is to create a sorted sequence of attaching one elem
 ## 2. Bubble sort
 
 The idea behind the method: the sorting step consists of going from bottom to top through the array. Pairs of neighboring elements are seen along the way. If the elements of a pair are in the wrong order, then we swap them.
-Implementation on С++
-
-
 
 Additional memory is obviously not required. The behavior of the improved (but not the initial) method is quite natural, an almost sorted array will be sorted much faster than a random one. Bubble grading is stable, but shaker grading loses this quality.
 In practice, the bubble method, even with improvements, is too slow. Therefore, it is almost never used.
@@ -19,7 +16,6 @@ In practice, the bubble method, even with improvements, is too slow. Therefore, 
 ## 3. Insertion sort
 
 Sorting by simple inserts is somewhat similar to the above methods.
-Implementation on С++
 
 Similar to selection sort, the average and the worst number of comparisons and hops are evaluated as O (n ^ 2), with no additional memory used.
 
@@ -30,7 +26,6 @@ The algorithm can be improved slightly. Note that at each step of the inner loop
 ## 4. Shell sort
 
 Shell sort is a rather interesting modification of the insertion sort algorithm.
-Implementation on С++
 
 ## 5. Quick Sort
 
